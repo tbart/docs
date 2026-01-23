@@ -339,7 +339,7 @@ Ist dem Ladepunkt keine Wallbox, sondern eine der unterstützten schaltbaren Ste
 
 Dient während der Ladung der Priorisierung von Loadpoints untereinander.
 
-Dem priorisierten Loadpoint wird die Ladeleistung der anderen nicht oder geringer priorisierten Loadpoints zur Verfügung gestellt. Greift dieser darauf zu, kann es kurzzeitig zu Netzbezug führen, bis die Regelung ausnivelliert ist.
+Dem priorisierten Loadpoint wird die Ladeleistung der anderen Loadpoints zur Verfügung gestellt, die nicht oder geringer priorisiert sind. Greift dieser darauf zu, kann es kurzzeitig zu Netzbezug führen, bis die Regelung ausnivelliert ist.
 
 Je höher der Wert, desto größer die Priorität.
 Loadpoints ohne Eintrag haben `priority: 0`
