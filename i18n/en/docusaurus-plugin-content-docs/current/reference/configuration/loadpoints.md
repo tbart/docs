@@ -112,7 +112,7 @@ mode: pv
 
 ### `soc`
 
-Defins the default settings for handling the State of Charge (SoC) of a connected vehicle.
+Defines the default settings for handling the State of Charge (SoC) of a connected vehicle.
 
 **For example**:
 
