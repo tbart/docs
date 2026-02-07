@@ -2733,8 +2733,12 @@ Für Phasenumschaltung ist mindestens Firmware 5.33 notwendig. Das 'SEMP interfa
 <DeviceFeatures features="1p3p,rfid" />
 
 Benötigt mindestens Firmware 052.1 oder neuer.
-Es wird die "HTTP-API v1"benötigt, für 1P/3P-Phasenumschaltung die "HTTP API v2".
-In der Go-E App (Menüpunkt "Auto") sollte die Option "Ausstecken simulieren" aktiviert sein.
+
+Die "HTTP API v2" sollte aktiviert werden, ohne 1P/3P-Phasenumschaltung reicht auch die "HTTP-API v1".
+Beides kann in der go-e App ("Einstellungen" > "Zugriff auf lokale HTTP-API v2 zulassen" bzw weiter unten auch für "v1") gesetzt werden.
+Mit aktueller Firmware ist "v1" aber hinfällig, wenn man sie nicht anderweitig nutzt.
+
+In der go-e App (Menüpunkt "Auto") sollte die Option "Ausstecken simulieren" aktiviert sein.
 
 <DeviceConfig
   code={`chargers:
